@@ -1,0 +1,227 @@
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display', serif;*/
+
+                            /* GLOBAL */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+
+p ,h2 ,h3 {
+    font-family: "Playfair Display";
+    font-weight: 100;
+}
+h1, nav a {
+    font-family: Kaushan Script;
+
+
+}
+header {
+    background: url("../img/fond.jpg") center / cover;
+    
+}
+.lorem {
+    margin: 90px 60px;
+    color: rgba(23, 23, 23, 0.684);
+
+}
+/*  HEADER */
+
+header article h1 {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    text-shadow: 1px 1px 7px black;
+    padding: 40px 0px 230px 0px;
+
+}
+header article p {
+    color: white;
+
+    margin: 0;
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+strong {
+    font-weight: 100;
+    
+}
+/* NAV */
+
+header nav {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-bottom: 20px;
+
+}
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 15px 50px 15px 50px;
+}
+header nav a .fa.fa {
+    display: block;
+}
+nav a .fa-book {
+    font-style: italic;
+}
+
+/* MAIN */
+
+.lorem h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.lorem article:first-child {
+    margin-bottom: 130px;
+}
+section article p {
+    line-height: 1.5em;
+    text-align: left;
+}
+.ycours {
+    float: left;
+    margin-right: 30px;
+}
+hr {
+    clear: both;
+    width: 90%;
+    color: rgba(227, 223, 223, 0.433);
+}
+
+.yposture {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.info {
+    padding: 30px 60px;
+    clear: both;
+    background: url("../img/background_section.jpg") left bottom / cover;
+}
+
+.info article {
+    display: inline-block;
+    width: 33%;
+    color: white;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.info p {
+    text-align: center;
+
+}
+/* FOOTER */
+footer {
+    padding-top: 20px;
+    text-align: center;
+    background: url("../img/background_section.jpg") left bottom / cover;
+}
+iframe {
+    width: 100%;
+    height: 450px
+}
+/* AGENDA */
+.agenda{
+    width: 90%;
+    margin: auto;
+}
+.agenda iframe{
+    height: 700px;
+}
+
+/* CONTACT */
+label, legend ,h3,td,caption{
+    color: rgba(23, 23, 23, 0.684);
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto;
+}
+
+th, td {
+    border: 1px solid rgb(211, 211, 211) ;
+
+}
+thead{
+    font-size: 1.6em;
+    font-weight: normal;
+}
+th {
+    background-color: rgb(196, 165, 222);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(242, 242, 242);
+}
+table a:last-child{
+color: rgb(196, 165, 222);
+text-decoration: none;
+}
+table td+td {
+text-align: center;
+}
+td{
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+}
+/* FORMULAIRE */
+.formulaire {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.formulaire h3 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+fieldset {
+    padding: 30px;
+    margin-bottom: 40px;
+    border: solid 3px rgb(242, 242, 242);
+}
+caption{
+    font-size: 2em;
+    margin: 30px 0 15px 0;
+}
+legend{
+    font-size: 1.3em;
+}
+
+input{
+    border: none;
+    border-bottom: solid rgb(242, 242, 242) 1px;
+}
+#connaitre {
+    width: 100%;
+}
+
+#envoyer{
+    background: rgb(140, 91, 200);
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}

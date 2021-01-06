@@ -1,0 +1,208 @@
+      /* font-family: 'Open Sans', sans-serif;  */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+  article img {
+      width: 100%;
+  }
+
+  body{
+background-color:rgb(242, 241, 244);  
+}
+/* XXXXXXXXXXXXXXXXXXXX            GLOBAUX         XXXXXXXXXXXXXXXXXXXX */
+section{
+    max-width: 80%;
+    margin: 0 auto;
+}
+h1, h2, header nav a {
+    font-family: 'PT Sans Narrow', sans-serif;  
+    font-weight: normal;
+
+
+}
+h1 , h2 {
+    margin-top: 30px;
+    color: rgb(47, 165, 146);
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    line-height: 2em;
+    font-weight: normal;
+
+}
+
+
+p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(110, 113, 115);
+    text-align: left;
+}
+/* XXXXXXXXXXXXXXXX            HEADER         XXXXXXXXXXXXXXXXXX */
+
+
+header{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align:center;
+    
+}
+header nav {
+    padding: 35px 10px;
+    background-color: rgb(47, 165, 146);
+}
+
+
+  header nav a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 30px 20px;
+      font-size: 2.5rem;
+
+  }
+  span {
+      color: rgb(47, 165, 146);
+  }
+/* XXXXXXXXXXXXXXXX           MAIN                XXXXXXXXXXXXXXXXXX */
+h1 {
+    font-size: 4rem;
+   
+
+}
+h2 {
+    font-size: 2.4rem;
+}
+  article a {
+      color: rgb(47, 165, 146);
+  }
+/* XXXXXXXXXXXXXXXX            ASIDE               XXXXXXXXXXXXXXXXXX */
+
+  aside{
+      display: none;
+  }
+/* XXXXXXXXXXXXXXXX           FOOTER               XXXXXXXXXXXXXXXXXX */
+
+footer {
+    text-align: center;
+}
+ 
+/* XXXXXXXXXXXXXXXX     !!       TABLETTE 1024PX      !!       XXXXXXXXXXXXXXXXXX */
+
+@media screen and (min-width: 1249px) {
+
+    /* XXXXXXXXXXXXXXXX            ASIDE              XXXXXXXXXXXXXXXXXX */
+
+   
+    aside {
+        max-width: 85%;
+        margin: 50px auto;
+        background: rgb(183, 219, 177);
+        display: block;
+        padding: 2px 16px 5rem;
+       
+    }
+    
+}
+/* XXXXXXXXXXXXXXXX       !!     DESKTOP 1200PX       !!        XXXXXXXXXXXXXXXXXX */
+
+@media screen and (min-width: 1200px){
+
+         /*  XXXXXXXXXXXXXXXXXXXXXXXXXXX       HEADER  XXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+         header nav a{
+            display: inline;
+            margin: 10px 90px;
+    
+        }
+        
+     /*  XXXXXXXXXXXXXXXXXXXXXXXXXXX       MAIN  XXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+    h1 {
+        margin: 0;
+    }
+
+    section {
+        float: left;
+        width: 68%;
+        margin-right: 20px;
+    }
+    /* XXXXXXXXXXXXXXXX            ASIDE              XXXXXXXXXXXXXXXXXX */
+
+    aside {
+        float: left;
+        width: 30%;
+        vertical-align: top;
+        margin: 0;
+    }
+}
+    /* XXXXXXXXXXXXXXXX            FOOTER              XXXXXXXXXXXXXXXXXX */
+
+footer {
+    clear: both;
+}
+

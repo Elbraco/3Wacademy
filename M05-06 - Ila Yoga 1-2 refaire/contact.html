@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<script src="https://kit.fontawesome.com/0c40b92b5b.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playfair+Display&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/style.css">
+
+    <title>Yoga Time</title>
+</head>
+<body>
+    <header>
+        <!--                              MENU - HEADER                     -->
+        <nav>
+            <a href="agenda.html"> <i class="fa fa-calendar-alt"></i> Agenda</a>
+            <a href="#"><i class="fa fa-book"></i>Livre d'or</a>
+            <a href="#"><i class="fa fa-image"></i>Album Photo</a>
+            <a href="contact.html"><i class="fa fa-envelope"></i>Nous contacter</a>
+        </nav>
+
+        <article>
+            <p> <strong>OFFRE PROMO : Votre premier cours d'essai gratuit ! </strong></p>
+            <H1> Bienvenue sur le site d'ila Yoga</H1>
+
+        </article>
+    </header>
+
+                        <!-- TABLEAUX -->
+
+    <main>
+        <section>
+        <table>
+            <caption>
+                Réserver votre place pour le prochain cours de Yoga du rire ! </caption>
+                <thead>
+            <tr>
+                <!-- TABLEAU PARIS -->
+                <th colspan="3"> Yoga du rire avec Jacqueline (Paris) </th>
+            </tr>
+        </thead>
+            <tr>
+                <td>05 Janvier 2016 </td>
+                <td> 15h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+            <tr>
+                <td>10 Janvier 2016</td>
+                <td> 16h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+            <tr>
+                <td>15 Janvier 2016</td>
+                <td> 15h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+            <tr>
+                <td>20 Janvier 2016</td>
+                <td> 16h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+        </table>
+            <!-- TABLEAU MARSEILLE -->
+        <table>
+            <thead>
+            <tr>
+                <th colspan="3"> Yoga du rire avec Jacqueline (Marseille) </th>
+            </tr>
+        </thead>
+            <tr>
+                <td>05 Janvier 2016 </td>
+                <td> 15h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+            <tr>
+                <td>10 Janvier 2016</td>
+                <td> 16h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+            <tr>
+                <td>15 Janvier 2016</td>
+                <td> 15h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+            <tr>
+                <td>20 Janvier 2016</td>
+                <td> 16h30</td>
+                <td> <a href="#"> Réserver ce créneau</a></td>
+            </tr>
+        </table>
+    </section>
+                <!-- FORMULAIRE -->
+    <section class="formulaire">
+        <h3> Pour valider votre réservation, compléter ce formulaire : </h3>
+        <form method="post" action="traitement.php">
+            <fieldset>
+                <legend> Vos coordonnées</legend>
+                <label for="prenom">Votre Prénom : </label>
+                <input type="text" name="prenom" id="prenom">
+
+                <label for="nom">Votre nom : </label>
+                <input type="text" name="nom" id="nom">
+
+                <label for="email"> Votre mail : </label>
+                <input type="email" name="email" id="email">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Quelles sont les raisons de votre venue ?</legend>
+                <label for="besoin">Besoin de me détendre</label>
+                <input type="checkbox" name="besoin" id="besoin">
+                <label for="medecin">Mon médecin m'a conseillé de venir</label>
+                <input type="checkbox" name="medecin" id="medecin">
+                <label for="tester">Je veux tester avec des amis</label>
+                <input type="checkbox" name="tester" id="tester">
+            </fieldset>
+            <fieldset>
+                <legend> Voulez-vous souscrire à notre programme de fidélité</legend>
+                <label for="oui">oui</label>
+                <input type="radio" name="programme" value="oui" id="oui">
+                <label for="non">non</label>
+                <input type="radio" name="programme" value="non" id="non">
+            </fieldset>
+            <fieldset>
+                <legend>Comment avez-vous connu Ila Yoga ?</legend>
+                <select name="connaitre" id="connaitre">
+                    <option value="internet" selected>Par internet</option>
+                    <option value="ami">Par un ami</option>
+                    <option value="tv">Télévision</option>
+                    <option value="pub">Publicité</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="Envoyer" id="envoyer">
+        </form>
+    </section>
+
+    </main>
+            <!-- FOOTER -->
+    <footer>
+
+        <img src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" alt="Logo 3wAcademy">
+    </footer>
+
+</body>
+
+</html>

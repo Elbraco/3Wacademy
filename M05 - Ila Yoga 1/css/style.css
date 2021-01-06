@@ -1,0 +1,250 @@
+/*font-family: 'Kaushan Script', cursive;
+font-family: 'Playfair Display', serif;*/
+
+/* XXXXXXXXXXXXXXXXXXXXXX GLOBAL XXXXXXXXXXXXXXXXXXX*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1em;
+    margin: 0px;
+}
+
+header {
+    background-image: url("../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header article p {
+    color: rgb(255, 255, 255, 1);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0;
+    padding: 10px;
+    font-size: 1em;
+
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 180px;
+    text-shadow: 1px 1px 7px black;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    color: rgb(0, 37, 66);
+    font-size: 1.7em;
+
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    color: rgb(120, 127, 145);
+    line-height: 1.8em;
+    font-size: 1em;
+    text-align: left;
+
+
+}
+
+footer {
+    clear: both;
+
+    background-image: url("../img/background_section.jpg");
+    padding-top: 80px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*               NAVIGATION                  */
+
+nav {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 30px 5px;
+}
+
+header nav a i.fas {
+    display: block;
+    font-size: 1.5em;
+
+}
+
+header nav a i.fa {
+    display: block;
+    font-size: 1.5em;
+
+}
+
+.fa-book {
+    font-style: italic;
+    font-size: 1.5em;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 50px;
+    display: inline-block;
+
+
+}
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXX MAIN XXXXXXXXXXXXXXX*/
+.container1,
+.container2 {
+    margin: 130px 50px 130px 50px;
+}
+
+.yogacours {
+    float: left;
+    margin-right: 15px;
+
+}
+
+.yogaposture {
+    float: right;
+    margin-left: 15px;
+}
+
+
+.container2 {
+    clear: both;
+
+}
+
+
+
+
+
+/*              FOOTER              */
+.noscours {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.nosprofs {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.nostarifs {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+footer p {
+    color: white;
+    width: 500px;
+    padding-bottom: 100px;
+    line-height: 1.9em;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: inherit;
+
+}
+
+footer img {
+    margin-top: 20px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 10px auto;
+}
+caption{
+    font-size: 2em;
+}
+th, td {
+    border: 1px solid rgb(211, 211, 211) ;
+    font-family: 'Playfair Display', serif;
+
+}
+
+th {
+    background-color: rgb(196, 165, 222);
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.6em;
+
+}
+
+tr:nth-child(odd){
+    background-color: rgb(242, 242, 242);
+}
+a:nth-last-child(1){
+color: rgb(196, 165, 222);
+text-decoration: none;
+}
+table td+td {
+text-align: center;
+}
+td{
+    padding: 10px;
+}
+
+.formulaire {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.formulaire p {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+fieldset {
+    padding: 30px;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    border: solid 3px rgb(242, 242, 242);
+}
+legend{
+    font-size: 1.6em;
+}
+
+input{
+    border: none;
+    border-bottom: solid rgb(242, 242, 242) 1px;
+}
+
