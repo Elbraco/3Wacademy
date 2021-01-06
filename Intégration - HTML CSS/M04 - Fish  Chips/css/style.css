@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*XXXXXXXXXXXXXX RESET XXXXXXXXXXXXXX*/
+
+
+/*XXXXXXX GLOBAL XXXXXXXXXXX*/
+
+* {
+    box-sizing: border-box;
+    color: rgb(69, 74, 84);
+}
+
+
+body {
+    margin: 0px;
+    background-image: url("../img/fond.png");
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+
+}
+
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* XXXXXXXX HEADER XXXXXXXXXXX */
+header {
+    background: rgb(38, 179, 180);
+    margin-top: 75px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    border-top: solid 5px rgb(43, 154, 160);
+    border-bottom: solid 5px rgb(43, 154, 160);
+}
+nav {
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 140px;
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 25px;
+
+}
+nav a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+aside {
+    float: right;
+    background-color: rgb(52, 177, 178);
+    border: solid 5px rgb(43, 154, 160);
+    width: 30%;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 2em;
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+/* WELCOME TO FISH */
+.text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(69, 74, 84);
+    font-family: 'Slabo 27px', serif;
+    font-weight: 100;
+
+}
+
+section p{ 
+    line-height: 1.7em;
+    color: rgb(70, 76, 86);
+    text-align: center;
+    text-align: center;
+
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 100;
+
+}
+h3 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    font-family: 'Slabo 27px', serif;
+    padding-left: 60px;
+
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+/*XXXXXXXXXX TODAYS SPECIAL XXXXXXXX */
+.container1 {
+    display: inline-block;
+    background-color: rgb(182, 222, 220);
+    margin: 0 auto;
+    width: 68%;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container1 p {
+    text-align: left;
+    word-spacing: 0.4em;
+}
+.crusty {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background-color:rgb(182, 222, 220);
+    margin-right: 30px;
+    margin-left: 30px;
+    }
+    .crusty p {
+        padding-top: 25px;
+    }
+    
+    .multi {
+        display: inline-block;
+        width:45%;
+    background-color:rgb(182, 222, 220);
+    
+    }
+    .multi p {
+        padding-top: 25px;
+    }
+
+    .read {
+        text-decoration: none;
+        color: white;
+        background: rgb(43, 154, 160);
+        float: right;
+        margin-top: 50px;
+        padding: 10px 20px;
+    }
+    
+    span { color: rgb(43, 154, 160);
+        
+    }
+
+
+
+.todayspecial h2 {
+    font-family: 'Slabo 27px', serif;
+
+    font-size: 3.5em;
+}
+ /* XXXXXXXXXXXXXXXXX ASIDE XXXXXXXXXXXXXXX*/
+ 
+aside img {
+    
+    float: right;
+    
+}
+section.logoaside {
+    background-image: url("../img/vignette.png");
+    background-repeat: no-repeat;
+    width: 150px;
+    position: absolute;
+    right: 320px;
+    top: 780px;
+    
+}
+
+
+aside p {
+font-weight: 700;
+color: #fff;
+text-align: left;
+word-spacing: 0.3em;
+
+}
+
+
+
+aside h3 {
+    font-size: 1.4em;
+    padding: 0%;
+    margin-top: 50px;
+    color: white;
+    font-weight: 100;
+
+}
+aside span {
+    color: rgb(178, 220, 218);
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(165, 217, 215);
+}
+
+
+.logoimg {
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* XXXXXXXXXXXX FONT AWESOME XXXXXXXXX */
+.fa-tint:before {
+    color: rgb(52, 177, 178);
+}
+.fa-comment:before {
+    color: rgb(162, 216, 214);
+}
+.fa-plus-circle:before {
+    color: white;
+}
+
+
+
